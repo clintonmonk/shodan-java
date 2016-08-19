@@ -6,7 +6,7 @@ https://www.shodan.io/
 # Setup
 Clone the repository and build using Maven.
 
-```xml
+```
 <dependency>
 	<groupId>com.github.clintonmonk</groupId>
 	<artifactId>shodan-java</artifactId>
@@ -17,7 +17,7 @@ Clone the repository and build using Maven.
 # Getting Started
 The main entry point is the ShodanClient.
 
-```java
+```
 # get impl dependencies
 ObjectMapper mapper = new ObjectMapperProvider().get();
 Client jerseyClient = new JerseyClientProvider().get();
